@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  padding: 2rem;
+}
+
+select#symbol {
+  background: #222;
+  color: white;
+  border: 2px solid white;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+svg {
+  display: block;
+  width: 80vw;
+  height: 80vh;
+  background: #111;
+  border: 1px solid white;
+}
+
+.zoomArea {
+  z-index: 100;
+}
